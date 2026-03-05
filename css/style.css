@@ -105,11 +105,13 @@ a {
   display: inline-block;
 }
 
+/* ===== Mainvisual ===== */
 #mainvisual img {
   height: 100vh;
   object-fit: cover;
 }
 
+/* ===== News ===== */
 #news .section-title {
   margin-bottom: 40px;
 }
@@ -150,6 +152,7 @@ a {
   font-size: 14px;
 }
 
+/* ===== About ===== */
 #about {
   padding: 0;
 }
@@ -182,6 +185,7 @@ a {
   margin-top: 16px;
 }
 
+/* ===== Business ===== */
 #business .section-title {
   text-align: left;
   margin-bottom: 40px;
@@ -212,6 +216,7 @@ a {
   margin-bottom: 10px;
 }
 
+/* ===== Company ===== */
 .company-inner {
   position: relative;
   min-height: 520px;
@@ -231,7 +236,7 @@ a {
 
 .company-text {
   width: 60%;
-  padding-top: 40px;
+  padding: 40px 40px 40px 60px;
   background: #fff;
 }
 
@@ -260,7 +265,7 @@ a {
 
 /* ===== Footer ===== */
 #footer {
-  background: #fff;;
+  background: #fff;
   padding: 60px 0 40px;
 }
 
@@ -280,8 +285,8 @@ a {
   font-size: 12px;
 }
 
+/* ===== Responsive ===== */
 @media (max-width: 900px) {
-
   #header {
     height: auto;
     padding: 16px 20px;
@@ -372,9 +377,5 @@ a {
 
   .footer-logo img {
     width: 100px;
-  }
-
-  .wrapper {
-    padding: 0 20px;
   }
 }
