@@ -224,9 +224,10 @@ a {
 
 .company-img {
   position: absolute;
-  top: 0;
+  top: 50%;
   right: 0;
   width: 45%;
+  transform: translateY(-50%);
 }
 
 .company-img img {
